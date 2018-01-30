@@ -25,9 +25,13 @@ body{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     float: left;
 }
-.nav1{
+#navbar{
     float: right;
     margin-right: 150px;
+    background: white;
+    border: 2px color gray;
+    padding: 10px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 .about{
     background: white;
@@ -94,17 +98,15 @@ body{
 
 }
 .portfolioPic{
+    float: left;
     background: white;
     border: 2px solid gray;
     padding: 10px;
     margin: 10px;
-    float: left;
 }
 .head{
     clear: both;
     display: block;
-    content: ""; 
-    
 }
 .picTitle {
     border: 2px solid gray;
@@ -114,4 +116,15 @@ body{
     position: fixed;
     width: 250;
 
+}
+aside { 
+    display: block;
+    float: right;
+    width: 270px;
+    background: white;
+    border: 2px color gray;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 150px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
